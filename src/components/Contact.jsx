@@ -5,12 +5,6 @@ export const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  }
-
   const handleSubmit = (event) => {
     event.preventDefault();
   
@@ -22,7 +16,7 @@ export const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert("/thank-you/"))
+      .then(() => window.location.href = "/thank-you/")
       .catch((error) => alert(error));
   };
 
@@ -38,6 +32,7 @@ export const Contact = () => {
         onSubmit={handleSubmit} 
         className="lg:w-full md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-400">
             Name
