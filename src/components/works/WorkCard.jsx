@@ -8,10 +8,10 @@ export const WorkCard = (work) => {
       <div className='w-[150px] sm:w-[190px] relative'>
         <img className='sm:object-contain object-fill rounded-lg' src={work.logo} alt={work.title} />
         <div className='w-full h-full flex justify-center items-center absolute inset-0 rounded-lg bg-black/60 opacity-0 hover:opacity-100 transition-all duration-500'>
-          <a href={work.link} className='flex justify-center items-center w-[19%] m-5'>
+          <a href={work.link} className='flex justify-center items-center w-[19%] m-5 cursor-auto'>
             <img className='object-contain' src={eye} alt="View" />
           </a>
-          <a href={work.git} className='flex justify-center items-center w-[19%] m-5'>
+          <a href={work.git} className='flex justify-center items-center w-[19%] m-5 cursor-pointer'>
             <img className='object-contain' src={git} alt="GitHub" />
           </a>
         </div>
