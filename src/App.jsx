@@ -1,24 +1,18 @@
 import React from 'react';
-import { Navbar } from './components/NavBar/Navbar';
-import { Home } from './components/Home';
-import { Skills } from './components/Skills/Skills';
-import { Works } from './components/works/Works';
-import { Contact } from './components/Contact';
-import './index.css'; // Ensure to import your CSS file
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { MainHome } from './MainHome';
+
+import { ThankU} from './ThankU';
+import './index.css';
 
 function App() {
   return (
-    <div className="">
-      <Navbar />
-      <Home />
-      <hr />
-      <Skills />
-      <hr />
-      <Works />
-      <hr />
-      <Contact />
-      
-    </div>
+   <Router>
+     <Routes>
+       <Route path="/" element={<MainHome />} />
+       <Route path="/thank-u" element={<ThankU />} />
+     </Routes>
+   </Router>
   );
 }
 

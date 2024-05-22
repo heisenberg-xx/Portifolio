@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const Contact = () => {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
-  
+
     const myForm = event.target;
     const formData = new FormData(myForm);
-  
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => window.location.href = "/thank-you/")
+      .then(() => navigate("/thank-u"))
+
       .catch((error) => alert(error));
   };
 
@@ -27,9 +30,9 @@ export const Contact = () => {
       </h2>
       <form
         name="contact"
-        method="POST" 
-        data-netlify="true" 
-        onSubmit={handleSubmit} 
+        method="POST"
+        data-netlify="true"
+        onSubmit={handleSubmit}
         className="lg:w-full md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
         <input type="hidden" name="form-name" value="contact" />
