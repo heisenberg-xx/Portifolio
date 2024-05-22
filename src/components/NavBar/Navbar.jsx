@@ -29,7 +29,7 @@ export const Navbar = () => {
             onClick={() => setToggle((prev) => !prev)}
           />
           <div
-            className={`${toggle ? 'flex animate__animated animate__slideInDown ' : 'hidden '} p-6 shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px] bg-primary absolute text-text1 top-[90px] sm:right-[80px] right-[1px] mx-4 my-3 w-[400px] rounded-xl z-[-2] border border-[rgba(_205,_210,_230,_0.21)]`}
+            className={`${toggle ? 'flex animate__animated animate__slideInDown ' : 'hidden '} p-6 shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px] bg-primary absolute text-text1 top-[90px] sm:right-[80px] right-[-1px] mx-4 my-3 sm:w-[400px] w-[370px] rounded-xl z-[-2] border border-[rgba(_205,_210,_230,_0.21)]`}
           >
             <Navdrop />
           </div>
