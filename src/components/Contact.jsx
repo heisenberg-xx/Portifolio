@@ -11,16 +11,20 @@ export const Contact = () => {
       .join("&");
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+  
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+      body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => navigate("/thank-you/"))
       .catch((error) => alert(error));
-  }
+  };
 
   return (
     <div id='contact' className="container px-5 py-10 mx-auto flex flex-col  justify-around items-center p-5 m-5">
