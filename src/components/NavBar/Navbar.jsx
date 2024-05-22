@@ -16,7 +16,7 @@ export const Navbar = () => {
       <ul className='flex p-2 w-full justify-evenly gap-[60px] bg-primary items-center rounded-xl shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px]'>
         <div className='sm:flex hidden m-7 sm:max-w-[40%] sm:px-[25px] max-w-[45%] px-[10px]'>
         </div>
-        <div className='sm:max-w-[40%] sm:px-[25px] max-w-[40%] px-[10px] flex justify-center items-center'>
+        <div className='sm:max-w-[40%] sm:px-[25px] max-w-[30%] px-[10px] flex justify-center items-center'>
           <img className='sm:max-w-[60%] object-contain animate__animated animate__headShake  h-[85px]' src={logo} alt="" />
         </div>
         <div className='flex flex-1 justify-around p-[10px] gap-[20px] sm:max-w-[15%] items-center'>
