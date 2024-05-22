@@ -11,8 +11,8 @@ export const Works = () => {
 
     <div className='flex flex-1 sm:flex-row flex-col justify-around items-center mx-[50px] mt-7 rounded-xl sm:gap-3 gap-5'>
       <WorkCard logo={rps} title="Rock-Paper-Scissors" desc="It is a Fun game made With HTML , CSS and JAVASCRIPT" git="https://github.com/raju0005/rock-paper-scissors" link="https://rajugame.netlify.app/"/>
-      <WorkCard logo={copycode} title="Copy-Code" desc="It is a Code Sharing app to any device with just one User name and No login required." git="https://github.com/raju0005/Volt-Music-Player" link="https://voltmusicplayer.netlify.app/"/>
-      <WorkCard logo={volt} title="Volt Music" desc="It is a web music player  created using React , Tailwind Css and SHAZAM Api ." link="https://copy-code-bro.vercel.app/" git="https://github.com/raju0005/copy-code"/>
+      <WorkCard logo={copycode} title="Copy-Code" desc="It is a Code Sharing app to any device with just one User name and No login required." link="https://copy-code-bro.vercel.app/" git="https://github.com/raju0005/copy-code "/>
+      <WorkCard logo={volt} title="Volt Music" desc="It is a web music player  created using React , Tailwind Css and SHAZAM Api ." link="https://voltmusicplayer.netlify.app/" git="https://github.com/raju0005/Volt-Music-Player  "/>
     </div>
     </div>
   )

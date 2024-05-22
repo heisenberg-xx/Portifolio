@@ -22,7 +22,7 @@ export const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => navigate("/thank-you/"))
+      .then(() => alert("/thank-you/"))
       .catch((error) => alert(error));
   };
 
@@ -33,9 +33,9 @@ export const Contact = () => {
       </h2>
       <form
         name="contact"
-        method="POST" // Add method="POST"
-        data-netlify="true" // Add data-netlify="true"
-        onSubmit={handleSubmit} // You can remove this onSubmit handler
+        method="POST" 
+        data-netlify="true" 
+        onSubmit={handleSubmit} 
         className="lg:w-full md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
         <div className="relative mb-4">
