@@ -15,7 +15,7 @@ export const ThankU = () => {
           title="Thank You Gif"
         ></iframe>
       </div>
-      <p><a href="https://giphy.com/gifs/warnerbrosde-R6gvnAxj2ISzJdbA63">via GIPHY</a></p>
+      
     </div>
   );
 };
