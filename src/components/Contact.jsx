@@ -7,7 +7,7 @@ export const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  
+
 
   return (
     <div id='contact' className="reveal container px-5 py-10 mx-auto flex flex-col  justify-around items-center p-5 m-5">
@@ -15,9 +15,7 @@ export const Contact = () => {
         Send a message
       </h2>
       <form
-        name="contact"
-        method="post"
-        data-netlify="true"
+        method="post" name="Contact Form" netlify
         className="lg:w-full md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
         <input type="hidden" name="form-name" value="contact" />
