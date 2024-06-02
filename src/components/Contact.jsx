@@ -15,10 +15,10 @@ export const Contact = () => {
         Send a message
       </h2>
       <form
-        method="post" name="Contact Form" netlify
+        method="post" name="Contact" netlify
         className="lg:w-full md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="Contact" />
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-400">
             Name
