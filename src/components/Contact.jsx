@@ -24,7 +24,7 @@ export const Contact = () => {
   };
 
   return (
-    <div id='contact' className="container px-5 py-10 mx-auto flex flex-col  justify-around items-center p-5 m-5">
+    <div id='contact' className="reveal container px-5 py-10 mx-auto flex flex-col  justify-around items-center p-5 m-5">
       <h2 className="text-white sm:text-4xl text-3xl mb-8 font-bold">
         Send a message
       </h2>

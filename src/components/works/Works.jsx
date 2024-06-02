@@ -6,7 +6,7 @@ import volt from '../../assets/Volt.svg'
 
 export const Works = () => {
   return (
-    <div id='works'className='flex flex-col flex-1 justify-evenly gap-5 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 my-5'>
+    <div id='works'className='reveal flex flex-col flex-1 justify-evenly gap-5 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 my-5'>
             <h1 className='text-[30px] text-text1 font-bold font-font2'>Creative Projects</h1>
 
     <div className='flex flex-1 sm:flex-row flex-col justify-around items-center mx-[50px] mt-7 rounded-xl sm:gap-3 gap-5'>

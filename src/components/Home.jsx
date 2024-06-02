@@ -7,7 +7,7 @@ import 'animate.css'
 
 export const Home = () => {
     return (
-        <div id="home" className='  flex flex-col sm:flex-row m-0 gap-6 justify-around sm:justify-center items-center flex-1 z-0 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]'>
+        <div id="home" className='reveal  flex flex-col sm:flex-row m-0 gap-6 justify-around sm:justify-center items-center flex-1 z-0 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
             <div className='max-w-[96%]  sm:max-w-[60%]'>
                 <img className='object-contain animate__animated animate__headShake' src={profile} alt="" />
             </div>

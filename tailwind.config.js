@@ -8,8 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'font1': ['Ubuntu', 'sans-serif'],
-        'font2': ['Poppins', 'sans-serif']
+        'font1': ['Alegreya Sans', 'sans-serif'],
+        'font2': ['Alegreya Sans SC', 'sans-serif'],
+        'font3':['Amarante', 'display']
       },
       colors: {
         'primary':'#000000',

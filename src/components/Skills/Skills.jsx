@@ -10,7 +10,7 @@ import { Skillcard } from './skillcard';
 
 export const Skills = () => {
   return (
-    <div id='skills'className='flex flex-col flex-1 justify-evenly gap-5 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4'>
+    <div id='skills'className='reveal flex flex-col flex-1 justify-evenly gap-5 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4'>
       <h1 className='text-[30px] text-text1 font-bold'>Skills</h1>
       <div className='flex flex-col sm:flex-wrap justify-evenly items-center  sm:flex-row  p-4 w-full'>
         <Skillcard name="Python" description="Python is a high-level programming language known for its simplicity and readability, favored for web development, data analysis, artificial intelligence, and more." logo={python} />
