@@ -10,7 +10,7 @@ import './index.css';
 
 
 
-export const MainHome = () => {
+ const MainHome = () => {
     useEffect(() => {
         ScrollReveal().reveal('.reveal', {
             origin: 'bottom',
@@ -35,6 +35,8 @@ export const MainHome = () => {
         </div>
     );
 }
+
+export default MainHome
 
 
 
