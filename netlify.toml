@@ -10,11 +10,11 @@
   framework = "vite"
 
 [[redirects]]
-  # Redirect API requests to your backend server on Vercel
   from = "/api/fitass/*"
-  to = "https://fitass-server.vercel.app/:splat"
+  to = "https://fitass-server.vercel.app/api/fitass"
   status = 200
   force = true
+
 
 [[redirects]]
   # Redirect all other routes to index.html for SPA support
