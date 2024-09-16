@@ -17,7 +17,7 @@ export const Navbar = () => {
         <div className='sm:flex hidden m-7 sm:max-w-[40%] sm:px-[25px] max-w-[45%] px-[10px]'>
         </div>
         <div className='sm:max-w-[50%] sm:px-[25px] max-w-[40%] px-[10px] flex justify-center items-center'>
-          <img className='sm:max-w-[60%] object-contain animate__animated animate__headShake  h-[85px]' src={logo} alt="" />
+          <img className='sm:max-w-[40%] object-contain animate__animated animate__headShake  h-[85px]' src={logo} alt="" />
         </div>
         <div className='flex flex-1 justify-around p-[10px] gap-[20px] sm:max-w-[15%] items-center'>
           <a  href="https://www.linkedin.com/in/rajeshande2004/"><img src={linkedin} alt="" className='hover:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(255,255,255,0.3)_0px_3px_7px_-3px] rounded transition duration-300 animate__animated animate__headShake w-[30px] h-[30px]   object-contain' /></a>
