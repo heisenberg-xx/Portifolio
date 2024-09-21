@@ -1,5 +1,4 @@
 import React from 'react';
-import profile from '../assets/profile.png';
 import download from '../assets/download.svg';
 import 'animate.css'
 

@@ -20,7 +20,7 @@ const Messages = () => {
     <div className='text-white h-screen flex flex-col justify-center items-center gap-10'>
       <h1 className='text-[30px]'>Messages</h1>
       {data && data.length > 0 ? (
-        <ul className='flex flex-col justify-around items-center gap-7 flex-wrap overflow-auto'>
+        <ul className='flex flex-col justify-around items-center gap-7  overflow-auto'>
           {data.map((message) => (
             <li key={message._id} className='rounded-xl  border-[2px] border-[rgba(_205,_210,_230,_0.21)] shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px] p-7'>
               <p><strong>Name:</strong> {message.username}</p>
