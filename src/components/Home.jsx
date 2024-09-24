@@ -12,7 +12,7 @@ export const Home = () => {
                 <span className='font-bold text-[20px] text-text1 sm:text-[20px]'>Hello, its me</span>
                 <span className='font-bold  text-[30px] text-text1 sm:text-[60px]'>Rajesh <span className=' *:'>.</span></span>
                 <span><p className='text-gray-600'>An enthusiastic web developer currently shapin the future of webdevelopment by designing the smooth user-interfaces that promote user-interaction with information and data </p></span>
-                < a href="https://drive.google.com/file/d/1X2EL4nheOlPk2r-MRi1MNlNmNSU5Py59/view?usp=drivesdk">
+                < a href="https://drive.google.com/file/d/1VZFtGlvd4NY7u-11CZPDZYaE-ih7Up5v/view?usp=drive_link">
                     <button className="px-4 py-3 hover:bg-white/70 transition-all duration-150 gap-2 rounded-md my-10 border flex justify-around items-center  border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] ">
                         <span className='font-bold font-font2'>My Resume</span><img className='w-[18px]' src={download} alt="" />
                     </button>
