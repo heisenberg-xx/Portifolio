@@ -17,33 +17,59 @@ export const Works = () => {
 
       <div className="flex flex-1  flex-col justify-around items-center rounded-xl  gap-5">
         <WorkCard
-          logo={rps}
-          title="Rock-Paper-Scissors"
-          desc="Developed a Rock-Paper-Scissors game using HTML, CSS, and JavaScript, incorporating layout, styling, and interactive game logic."
-          git="https://github.com/raju0005/rock-paper-scissors"
-          link="https://rajugame.netlify.app/"
+          work={{
+            logo: rps,
+            title: "Rock-Paper-Scissors",
+            desc: [
+              "Built a fun, interactive Rock Paper Scissors game using HTML, CSS, and JavaScript.",
+              "Implemented real-time game mechanics with visually appealing designs for an engaging user experience.",
+              "Designed the app to be responsive across devices, allowing users to enjoy the game from any platform.",
+              "Added a computer-generated opponent to ensure unpredictable and exciting gameplay.",
+            ],
+            git: "https://github.com/raju0005/rock-paper-scissors",
+            link: "https://rajugame.netlify.app/",
+          }}
+        />
+
+        <WorkCard
+          work={{
+            logo: volt,
+            title: "Volt Music Player",
+            desc: [
+              "Developed a music web app using Shazam API and React.js for users to explore albums and tracks in real-time.",
+              "Designed a responsive, intuitive UI with Tailwind CSS, offering seamless navigation across devices.Integrated a dynamic search feature that enhances user experience by delivering music suggestions instantly.",
+              "Focused on user engagement by ensuring a smooth, fast-loading interface, supporting both desktop and mobile users.",
+            ],
+            git: "https://voltmusicplayer.netlify.app/",
+            link: "https://voltmusicplayer.netlify.app/",
+          }}
         />
         <WorkCard
-          logo={copycode}
-          title="Copy-Code"
-          desc="Developed Copy-Code, a code-sharing app using React, Express, and MongoDB. Enabled sharing to any device with a single username and no login required."
-          link="https://copy-code-bro.vercel.app/"
-          git="https://github.com/raju0005/copy-code "
+          work={{
+            logo: copycode,
+            title: "Copy-Code",
+            desc: [
+              "Created a code-sharing platform using React.js and Tailwind CSS to enable users to share snippets across devices without login.",
+              "Simplified cross-device collaboration, offering quick access to shared code with a single username.",
+              "Designed the platform with a focus on ease of use, ensuring that developers can quickly share and collaborate on code.",
+            ],
+            git: "https://copy-code-bro.vercel.app/",
+            link: "https://copy-code-bro.vercel.app/",
+          }}
         />
         <WorkCard
-          logo={volt}
-          title="Volt Music"
-          desc="Developed Volt Music, a web music player using React, Tailwind CSS, and the SHAZAM API. Implemented seamless music playback and a responsive design."
-          link="https://voltmusicplayer.netlify.app/"
-          git="https://github.com/raju0005/Volt-Music-Player  "
-        />
-        <WorkCard
-          logo={ben10}
-          title="Ben 10 Wiki"
-          desc="
-Developed a responsive Ben 10 fan wiki with React, Redux, Express.js, Tailwind CSS, and MongoDB, featuring detailed sections on seasons and aliens."
-          link="https://ben-10-wiki.vercel.app/"
-          git="https://github.com/raju0005/Ben-10"
+          work={{
+            logo: ben10,
+            title: "Ben-10-Wiki",
+            desc: [
+              "Developed a full-stack web application using React.js, Redux, Express.js, MongoDB, and Tailwind CSS to create an interactive encyclopedia for Ben 10 fans.",
+              "Designed and implemented a dynamic database to store and display information on episodes, characters, and aliens from the series.",
+              "Built with a focus on user interactivity, allowing fans to explore the world of Ben 10 in a structured and immersive format.",
+              "Showcased expertise in full-stack development, combining responsive design with efficient state management and server-side rendering.",
+            ],
+            link: "https://ben-10-wiki.vercel.app/",
+            git: "https://github.com/raju0005/Ben-10",
+          }}
         />
       </div>
     </div>
