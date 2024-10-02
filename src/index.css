@@ -11,6 +11,12 @@
   --sb-thumb-hover-color: #555;
   --sb-size: 8px;
 }
+@font-face {
+  font-family: "PriceDown";
+  src: url("./assets/fonts/pricedow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Hide the default scrollbar */
 body::-webkit-scrollbar {

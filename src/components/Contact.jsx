@@ -37,7 +37,7 @@ export const Contact = () => {
       id="contact"
       className="reveal container px-5 py-10 mx-auto flex flex-col justify-around items-center p-5 m-5"
     >
-      <h2 className="text-white sm:text-4xl text-3xl mb-8 font-bold">
+      <h2 className="text-white sm:text-4xl text-[40px] mb-8 ">
         Send a message
       </h2>
       <form
@@ -46,43 +46,43 @@ export const Contact = () => {
       >
         <input type="hidden" name="form-name" value="Contact" />
         <div className="relative mb-4">
-          <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="name" className="leading-7 text-2xl text-gray-400 lowercase">
             Name
           </label>
           <input
             type="text"
             id="name"
             name="name"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full font-font2 bg-gray-800 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className="relative mb-4">
-          <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+        <div className="relative mb-4 ">
+          <label htmlFor="email" className="leading-7 text-2xl text-gray-400 lowercase">
             Email
           </label>
           <input
             type="email"
             id="email"
             name="email"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full font-font2 bg-gray-800 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="relative mb-4">
-          <label htmlFor="message" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="message" className="leading-7 text-2xl text-gray-400 lowercase">
             Message
           </label>
           <textarea
             id="message"
             name="message"
-            className="w-full bg-white/30 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full font-font2 bg-white/30 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             onChange={(e) => setMessage(e.target.value)}
           />
         </div>
         <button
           type="submit"
-          className="text-black bg-white border-0 py-2 px-3 focus:outline-none rounded text-[15px] font-font2 mt-3"
+          className="text-black bg-white border-0 py-2 px-3 focus:outline-none rounded text-[15px] font-font2 font-semibold mt-3 transition-transform transform hover:scale-105"
           disabled={isLoading}
         >
           {isLoading ? "Sending..." : "Send message"}
@@ -94,7 +94,7 @@ export const Contact = () => {
           Failed to send message: {error?.data?.message || error.message}
         </p>
       )}
-      <p className="text-text1/35 text-[10px] mt-10">
+      <p className="text-text1/35 text-[10px] mt-10 font-font2">
         All Rights Reserved @2024 RAJESH ANDE
       </p>
     </div>

@@ -11,7 +11,7 @@ export const Works = () => {
       id="works"
       className="reveal flex flex-col flex-1 justify-evenly gap-5 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 my-5"
     >
-      <h1 className="text-[30px] text-text1 font-bold font-font2">
+      <h1 className="text-[40px] text-text1">
         Creative Projects
       </h1>
 

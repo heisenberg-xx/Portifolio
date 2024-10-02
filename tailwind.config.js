@@ -10,7 +10,8 @@ export default {
       fontFamily: {
         'font1': ['Alegreya Sans', 'sans-serif'],
         'font2': ['Alegreya Sans SC', 'sans-serif'],
-        'font3':['Amarante', 'display']
+        'font3':['Amarante', 'display'],
+        customPD:['PriceDown', 'sans-serif'],
       },
       colors: {
         'primary':'#000000',

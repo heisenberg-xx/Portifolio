@@ -13,7 +13,7 @@ export const Skills = () => {
       id="skills"
       className="reveal flex flex-col flex-1 justify-around gap-4 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-3"
     >
-      <h1 className="text-[30px] text-text1 font-bold">Skills</h1>
+      <h1 className="text-[40px] text-text1 ">Skills</h1>
       <div className="flex  justify-around items-center flex-row  px-4 w-full">
         <Skillcard logo={python} />
         <Skillcard logo={react} />
