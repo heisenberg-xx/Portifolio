@@ -25,10 +25,10 @@ export const WorkCard = ({ work }) => {
           ))}
         </ul>
         <div className="flex flex-row justify-end items-center gap-4 p-2 w-full">
-          <button className="text-black font-semibold bg-white rounded-xl px-2 py-1">
+          <button className="text-black font-semibold bg-white rounded-xl px-2 py-1 transition-transform transfrom hover:scale-105">
             <a href={work.link}>preview</a>
           </button>
-          <button className="text-black font-semibold bg-white rounded-xl px-2 py-1">
+          <button className="text-black font-semibold bg-white rounded-xl px-2 py-1 transition-transform transfrom hover:scale-105">
             <a href={work.git}>github</a>
           </button>
         </div>
