@@ -18,7 +18,7 @@ export const Navbar = () => {
         <div className='flex flex-1 justify-center md:gap-8 gap-4 p-[3px]  sm:max-w-[15%] items-center'>
           <a href="https://www.linkedin.com/in/rajeshande2004/"><img src={linkedin} alt="" className='hover:scale-110 rounded transition-transform transform animate__animated animate__headShake md:w-[40px] md:h-[40px] h-[30px] w-[30px] object-contain' /></a>
           <a href="https://github.com/raju0005"><img src={github} alt="" className='hover:scale-110 rounded transition-transform transform md:w-[40px] md:h-[40px] h-[30px] w-[30px] animate__animated animate__headShake object-contain' /></a>
-          <div className='md:w-[40px] md:h-[40px] h-[30px] w-[30px]flex justify-center items-center'><img className='h-full w-full object-fill rounded border-2 border-white' src={profile} /></div>
+          <div className='hover:scale-110 rounded transition-transform transform md:w-[40px] md:h-[40px] h-[30px] w-[30px]flex justify-center items-center'><img className='h-full w-full object-fill rounded border-2 border-white' src={profile} /></div>
         </div>
       </ul>
     </div>
