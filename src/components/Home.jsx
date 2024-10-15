@@ -5,7 +5,7 @@ import 'animate.css'
 
 export const Home = () => {
     return (
-        <div id="home" className='reveal pt-20 flex flex-col sm:flex-row  gap-6 justify-around sm:justify-center items-center flex-1  rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
+        <div id="home" className='reveal pt-3 flex flex-col sm:flex-row  gap-6 justify-around sm:justify-center items-center flex-1  rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
             <div className='flex flex-1 font-font1 mt-[50px] flex-grow flex-col animate__animated animate__headShake gap-[10px] sm:h-[50vh] sm:justify-start justify-center sm:items-start items-start max-w-[70%] sm:max-w-[30%]'>
                 <span className='font-bold font-font2 text-[20px] text-text1 sm:text-[20px]'>Hello, its me</span>
                 <span className='  text-[50px] text-text1 font-customPD sm:text-[70px]'>Rajesh <span className=''>.</span></span>
