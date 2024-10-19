@@ -10,8 +10,8 @@ import { RiMessage2Fill } from "react-icons/ri";
 
 export const Navbar = () => {
   return (
-    <div className="min-w-[40%] z-30 fixed top-3">
-      <ul className="flex p-2 w-full justify-around  bg-primary items-center rounded-xl shadow-[rgba(205,210,230,0.21)_0px_3px_8px] md:gap-2 gap-3">
+    <div className="md:min-w-[40%] min-w-[50%] z-30 fixed top-3 border-2 bg-primary border-white rounded-xl shadow-[rgba(205,210,230,0.21)_0px_3px_8px]">
+      <ul className="flex p-2 w-full justify-around   items-center   md:gap-2 gap-4">
         <li className="text-white flex justify-center cursor-pointer items-center p-2 hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
           <Link to="home" smooth={true} duration={1000} offset={-50}>
             <IoMdHome />

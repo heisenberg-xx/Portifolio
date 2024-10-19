@@ -2,7 +2,7 @@ import React from "react";
 
 export const WorkCard = ({ work }) => {
   return (
-    <div className="border border-[rgba(_205,_210,_230,_0.21)] flex flex-row px-5 py-3  flex-1 justify-around items-center rounded-xl bg-primary md:max-w-[62%] w-[90%] gap-7 shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px] animate__animated  hover:animate-buzz relative md:max-h-[350px]">
+    <div className="border-2 border-white flex flex-row px-5 py-3  flex-1 justify-around items-center rounded-xl bg-primary md:max-w-[62%] w-[90%] gap-7 shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px] animate__animated  hover:animate-buzz relative md:max-h-[350px]">
       <div className="w-[200px] hidden md:flex ">
         <img
           className="object-fill rounded-lg"

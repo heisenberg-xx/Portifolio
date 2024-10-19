@@ -53,7 +53,7 @@ export const Contact = () => {
             type="text"
             id="name"
             name="name"
-            className="w-full font-font2 bg-gray-800 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full font-font2 bg-gray-800 rounded border-2 border-white focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setName(e.target.value)}
           />
         </div>
@@ -65,7 +65,7 @@ export const Contact = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full font-font2 bg-gray-800 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full font-font2 bg-gray-800 rounded  border-2 border-white focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
@@ -76,13 +76,13 @@ export const Contact = () => {
           <textarea
             id="message"
             name="message"
-            className="w-full font-font2 bg-white/30 rounded border border-gray-700 focus:border-white/40 focus:ring-2 focus:ring-white/50 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full font-font2 bg-white/30 rounded  border-2 border-white focus:border-white/40 focus:ring-2 focus:ring-white/50 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             onChange={(e) => setMessage(e.target.value)}
           />
         </div>
         <button
           type="submit"
-          className="text-black bg-white border-0 py-2 px-3 focus:outline-none rounded text-[15px] font-font2 font-semibold mt-3 transition-transform transform hover:scale-105"
+          className="text-black bg-white  py-2 px-3 focus:outline-none rounded text-[15px] font-font2 font-semibold mt-3 transition-transform transform hover:scale-105"
           disabled={isLoading}
         >
           {isLoading ? "Sending..." : "Send message"}
@@ -94,7 +94,10 @@ export const Contact = () => {
           Failed to send message: {error?.data?.message || error.message}
         </p>
       )}
-      <p className="text-text1/35 text-[10px] mt-10 font-font2">
+      <p className="text-text1/35 text-[15px] mt-10 font-font2">
+        contact me - rajeshande2004@gmail.com
+      </p>
+      <p className="text-text1/35 text-[10px] mt-4 font-font2">
         All Rights Reserved @2024 RAJESH ANDE
       </p>
     </div>
