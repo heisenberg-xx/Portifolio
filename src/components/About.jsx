@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div
             id="about"
-            className="lowercase w-screen h-screen reveal flex flex-col flex-1 justify-center gap-[100px] items-center rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-3"
+            className="lowercase w-screen h-screen reveal flex flex-col flex-1 justify-center gap-[30px] items-center rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-3"
         >
             <h1 className="text-[40px] text-text1">About Me</h1>
 
