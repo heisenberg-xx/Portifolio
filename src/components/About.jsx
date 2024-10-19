@@ -13,7 +13,7 @@ const About = () => {
         >
             <h1 className="text-[40px] text-text1">About Me</h1>
 
-            <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[50px]">
+            <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[45px]">
                 I'm a passionate
                 <span className="bg-gray-800 px-2 py-1 rounded mx-2 font-semibold">full-stack developer</span>
                 with almost 1 year of hands-on experience and a strong foundation in building web applications using technologies like
