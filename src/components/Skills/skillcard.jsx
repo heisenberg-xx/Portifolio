@@ -1,16 +1,12 @@
 import React from 'react';
 
-export const Skillcard = (card) => {
+export const Skillcard = ({ logo, name }) => {
   return (
-  <div className="h-[60px] w-[60px] sm:h-[100px] sm:w-[100px] sm:my-[30px] sm:mx-[10px] p-2   animate__animated animate__headShake hover:scale-105 transform  transition-transform">
-    <div className="border border-[rgba(_205,_210,_230,_0.21)] bg-primary p-[20px] relative h-full w-full rounded-xl shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px] ">
-      <div className="absolute inset-0 p-3">
-        <img className="h-full w-full  rounded-xl object-contain animate-loadtwo " src={card.logo} alt={card.name} />
-      </div>
-      
+    <div className="bg-black flex justify-center items-center h-[75px] w-[150px] p-2 animate__animated animate__headShake hover:scale-105 transition-transform rounded-xl shadow-[rgba(205,210,230,0.21)_0px_3px_8px]">
+
+      <img className="h-[50%] w-[50%] object-contain animate-loadtwo" src={logo} alt={name} />
+      <h1 className="text-white text-lg  font-font2 font-bold ">{name}</h1>
     </div>
-  </div>
- 
 
   );
 };

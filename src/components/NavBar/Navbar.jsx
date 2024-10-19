@@ -1,25 +1,53 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-scroll';
 import 'animate.css';
-import logo from '../../assets/logo.svg';
-import github from '../../assets/github.svg';
-import linkedin from '../../assets/linkedin.svg';
-import profile from '../../assets/2.jpg'
+import { IoMdHome } from "react-icons/io";
+import { FaUserSecret, FaBrain, FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
+import { MdWork } from "react-icons/md";
+import { RiMessage2Fill } from "react-icons/ri";
+
+
 
 export const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
-
-
   return (
-    <div className=" w-screen z-10 ">
-      <ul className='flex p-[2px] w-full justify-around gap-[10px] bg-primary items-center rounded-xl shadow-[rgba(_205,_210,_230,_0.21)_0px_3px_8px]'>
-        <div className='max-w-[50%] px-[25px] md:max-w-[80%] md:px-[10px] flex justify-center md:justify-start items-center'>
-          <img className='md:w-[170px] md:h-[70px] h-[60px] w-[140px] object-contain animate__animated animate__headShake ' src={logo} alt="" />
-        </div>
-        <div className='flex flex-1 justify-center md:gap-8 gap-4 p-[3px]  sm:max-w-[15%] items-center'>
-          <a href="https://www.linkedin.com/in/rajeshande2004/"><img src={linkedin} alt="" className='hover:scale-110 rounded transition-transform transform animate__animated animate__headShake md:w-[40px] md:h-[40px] h-[30px] w-[30px] object-contain' /></a>
-          <a href="https://github.com/raju0005"><img src={github} alt="" className='hover:scale-110 rounded transition-transform transform md:w-[40px] md:h-[40px] h-[30px] w-[30px] animate__animated animate__headShake object-contain' /></a>
-          <div className='hover:scale-110 rounded transition-transform transform md:w-[40px] md:h-[40px] h-[30px] w-[30px]flex justify-center items-center'><img className='h-full w-full object-fill rounded border-2 border-white' src={profile} /></div>
-        </div>
+    <div className="min-w-[40%] z-30 fixed top-3">
+      <ul className="flex p-2 w-full justify-around  bg-primary items-center rounded-xl shadow-[rgba(205,210,230,0.21)_0px_3px_8px] md:gap-2 gap-3">
+        <li className="text-white flex justify-center cursor-pointer items-center p-2 hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <Link to="home" smooth={true} duration={1000} offset={-50}>
+            <IoMdHome />
+          </Link>
+        </li>
+        <li className="text-white flex justify-center cursor-pointer items-center p-2  transorm transistion-transform  hover:bg-gray-500  rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <Link to="about" smooth={true} duration={1000} offset={-50}>
+            <FaUserSecret />
+          </Link>
+        </li>
+        <li className="text-white flex justify-center cursor-pointer items-center p-2 transorm transistion-transform  hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <Link to="skills" smooth={true} duration={1000} offset={-50}>
+            <FaBrain />
+          </Link>
+        </li>
+        <li className="text-white flex justify-center cursor-pointer items-center p-2 transorm transistion-transform  hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <Link to="works" smooth={true} duration={1000} offset={-50}>
+            <MdWork />
+          </Link>
+        </li>
+        <li className="text-white flex justify-center cursor-pointer items-center p-2 transorm transistion-transform  hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <Link to="contact" smooth={true} duration={1000} offset={-50}>
+            <RiMessage2Fill />
+          </Link>
+        </li>
+        <li className="text-white flex justify-center cursor-pointer items-center p-2 transorm transistion-transform  hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <a href="https://www.linkedin.com/in/rajeshande2004/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+          </a>
+        </li>
+
+        <li className="text-white flex justify-center cursor-pointer items-center p-2 transorm transistion-transform  hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
+          <a href="https://github.com/raju0005" target="_blank" rel="noopener noreferrer">
+            <FaGithubAlt />
+          </a>
+        </li>
       </ul>
     </div>
   );

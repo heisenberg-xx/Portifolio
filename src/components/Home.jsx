@@ -1,22 +1,48 @@
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 import download from '../assets/download.svg';
-import 'animate.css'
-
+import logo from '../assets/2.jpg'
+import 'animate.css';
 
 export const Home = () => {
     return (
-        <div id="home" className='reveal pt-3 flex flex-col sm:flex-row  gap-6 justify-around sm:justify-center items-center flex-1  rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
-            <div className='flex flex-1 font-font1 mt-[50px] flex-grow flex-col animate__animated animate__headShake gap-[10px] sm:h-[50vh] sm:justify-start justify-center sm:items-start items-start max-w-[70%] sm:max-w-[30%]'>
-                <span className='font-bold font-font2 text-[20px] text-text1 sm:text-[20px]'>Hello, its me</span>
-                <span className='  text-[50px] text-text1 font-customPD sm:text-[70px]'>Rajesh <span className=''>.</span></span>
-                <span><p className='text-gray-600 font-font2'>An enthusiastic web developer currently shapin the future of webdevelopment by designing the smooth user-interfaces that promote user-interaction with information and data </p></span>
-                <a href="https://drive.google.com/file/d/1VZFtGlvd4NY7u-11CZPDZYaE-ih7Up5v/view?usp=drive_link">
-                    <button className="px-4 py-3 hover:bg-white/70 transition-all duration-150 gap-2 rounded-md my-10 border flex justify-around items-center  border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] ">
-                        <span className='font-bold font-font2'>My Resume</span><img className='w-[18px]' src={download} alt="" />
-                    </button>
-                </a>
+        <div
+            id="home"
+            className="w-screen h-screen reveal pt-3 flex flex-col md:flex-row justify-center gap-20 items-center  rounded-xl 5"
+
+        >
+            <div className=' flex  justify-center  items-center m-5 animate__animated animate__headShake'>
+                <img className='md:w-[300px] w-[200px] rounded-[75px] md:rounded-[100px] border-[4px] border-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' src={logo} />
+            </div>
+            <div className=' flex  justify-center  items-center m-5'>
+                <div className="flex flex-1 font-font1  flex-grow gap-[10px]  h-full justify-center items-center md:items-start flex-col animate__animated animate__headShake w-[400px]   ">
+                    <span className="font-bold font-font2 text-[20px] text-text1 sm:text-[20px]">
+                        Hello, it's me
+                    </span>
+                    <span className="text-[50px] text-text1 font-customPD sm:text-[70px]">
+                        Rajesh<span>.</span>
+                    </span>
+
+                    <span className="text-white font-customPD lowercase text-[40px]">
+                        <Typewriter
+                            words={['Full Stack Dev', 'MERN Stack Dev', 'Front End Dev']}
+                            loop={true}
+                            cursor
+                            cursorStyle="|"
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                        />
+                    </span>
+
+                    <a href="https://drive.google.com/file/d/1VZFtGlvd4NY7u-11CZPDZYaE-ih7Up5v/view?usp=drive_link">
+                        <button className="px-4 py-3  gap-2 rounded-md my-10 border flex justify-around items-center border-black bg-white text-black text-lg transition-transform transform hover:scale-105">                            
+                        <span className="font-bold font-font2">My Resume</span>
+                            <img className="w-[18px]" src={download} alt="" />
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
-
     );
 };
