@@ -37,7 +37,7 @@ export const Works = () => {
             desc: [
               "A browser game that’s always ready for a quick match.",
               "Built With: HTML, CSS, JavaScript",
-              "Why It’s Fun: Face off against a computer opponent with random moves—easy, quick, and responsive.,
+              "Why It’s Fun: Face off against a computer opponent with random moves—easy, quick, and responsive.",
               
             ],
             git: "https://github.com/raju0005/rock-paper-scissors",
