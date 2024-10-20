@@ -21,7 +21,7 @@ export const Works = () => {
             logo: ben10,
             title: "Ben-10-Wiki",
             desc: [
-              "A fan site where users explore characters, episodes, and aliens from the Ben 10 universe.",
+              "A fan site where users explore seasons, and aliens from the Ben 10 universe.",
               "Built With: React.js, Redux, Express.js, MongoDB, Tailwind CSS",
               "What’s Cool: Backend API powers fast data retrieval, and Redux keeps everything smooth.",
               
