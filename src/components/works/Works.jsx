@@ -30,6 +30,32 @@ export const Works = () => {
             git: "https://github.com/raju0005/Ben-10",
           }}
         />
+ <WorkCard
+          work={{
+            logo: copycode,
+            title: "Copy-Code",
+            desc: [
+              "A no-login code-sharing tool—share snippets in seconds.",
+              "Built With: React.js, Express.js, MongoDB, Tailwind CSS access to shared code with a single username.",
+              "Why It Matters: Quick sharing across devices with just a username. No hassle, just code.",
+            ],
+            git: "https://copy-code-bro.vercel.app/",
+            link: "https://copy-code-bro.vercel.app/",
+          }}
+        />
+ <WorkCard
+          work={{
+            logo: volt,
+            title: "Volt Music Player",
+            desc: [
+              "A music app that’s fast and fun to explore tracks.",
+              "Built With: React.js, Tailwind CSS, Shazam API",
+              "What’s Cool: Real-time song search with smooth navigation on any device.",
+            ],
+            git: "https://voltmusicplayer.netlify.app/",
+            link: "https://voltmusicplayer.netlify.app/",
+          }}
+        />
         <WorkCard
           work={{
             logo: rps,
@@ -45,32 +71,8 @@ export const Works = () => {
           }}
         />
 
-        <WorkCard
-          work={{
-            logo: volt,
-            title: "Volt Music Player",
-            desc: [
-              "A music app that’s fast and fun to explore tracks.",
-              "Built With: React.js, Tailwind CSS, Shazam API",
-              "What’s Cool: Real-time song search with smooth navigation on any device.",
-            ],
-            git: "https://voltmusicplayer.netlify.app/",
-            link: "https://voltmusicplayer.netlify.app/",
-          }}
-        />
-        <WorkCard
-          work={{
-            logo: copycode,
-            title: "Copy-Code",
-            desc: [
-              "A no-login code-sharing tool—share snippets in seconds.",
-              "Built With: React.js, Express.js, MongoDB, Tailwind CSS access to shared code with a single username.",
-              "Why It Matters: Quick sharing across devices with just a username. No hassle, just code.",
-            ],
-            git: "https://copy-code-bro.vercel.app/",
-            link: "https://copy-code-bro.vercel.app/",
-          }}
-        />
+       
+       
        
       </div>
     </div>
