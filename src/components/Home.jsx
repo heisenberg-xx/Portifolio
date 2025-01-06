@@ -35,7 +35,7 @@ export const Home = () => {
                         />
                     </span>
 
-                    <a href="https://drive.google.com/file/d/13FVzWU6MFutX38EToCxgwvH-_IXaQ6lK/view?usp=drivesdk">
+                    <a href="https://drive.google.com/file/d/1ZfjHJy-T1_lYRKpBOlGMwVZmeCNYFVAs/view?usp=drivesdk">
                         <button className="px-4 py-3  gap-2 rounded-md my-10 border flex justify-around items-center border-black bg-white text-black text-lg transition-transform transform hover:scale-105">                            
                         <span className="font-bold font-font2">My Resume</span>
                             <img className="w-[18px]" src={download} alt="" />
