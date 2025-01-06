@@ -38,7 +38,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className="text-white flex justify-center cursor-pointer items-center p-2 transorm transistion-transform  hover:bg-gray-600 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
-          <a href="https://www.linkedin.com/in/rajesh-ande-2oo4/ target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/rajesh-ande-2oo4/" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
           </a>
         </li>
