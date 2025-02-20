@@ -11,7 +11,7 @@ const About = () => {
             id="about"
             className="lowercase w-screen h-screen reveal flex flex-col flex-1 justify-center gap-[30px] items-center rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-5"
         >
-            <h1 className="text-[40px] text-text1">About Me</h1>
+            <h1 className="text-[40px] text-text1 mt-7">About Me</h1>
 
             <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[45px]">
                 I'm a passionate
