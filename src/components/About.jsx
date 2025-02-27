@@ -5,6 +5,7 @@ import { SiExpress } from "react-icons/si";
 import { CgGym } from "react-icons/cg";
 
 const About = () => {
+<<<<<<< HEAD
   return (
     <section
       id="about"
@@ -16,6 +17,14 @@ const About = () => {
         </span>
         out me
       </h1>
+=======
+    return (
+        <div
+            id="about"
+            className="lowercase w-screen h-screen reveal flex flex-col flex-1 justify-center gap-[30px] items-center rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-5"
+        >
+            <h1 className="text-[40px] text-text1 mt-7">About Me</h1>
+>>>>>>> 65f06e1dfdc62372e61cb74129a26031d5358925
 
       <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[45px]">
         I'm a passionate

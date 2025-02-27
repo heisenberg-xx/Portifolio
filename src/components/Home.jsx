@@ -32,6 +32,7 @@ export const Home = () => {
             jesh<span>.</span>
           </div>
 
+<<<<<<< HEAD
           <p className="text-white font-customPD lowercase text-[40px]">
             <Typewriter
               words={["Full Stack Dev", "MERN Stack Dev", "Front End Dev"]}
@@ -55,6 +56,16 @@ export const Home = () => {
               <img className="w-[18px]" src={download} alt="Download icon" />
             </button>
           </Link>
+=======
+                    <a href="https://drive.google.com/file/d/1ZfjHJy-T1_lYRKpBOlGMwVZmeCNYFVAs/view?usp=drivesdk">
+                        <button className="px-4 py-3  gap-2 rounded-md my-10 border flex justify-around items-center border-black bg-white text-black text-lg transition-transform transform hover:scale-105">                            
+                        <span className="font-bold font-font2">My Resume</span>
+                            <img className="w-[18px]" src={download} alt="" />
+                        </button>
+                    </a>
+                </div>
+            </div>
+>>>>>>> 65f06e1dfdc62372e61cb74129a26031d5358925
         </div>
       </article>
     </section>

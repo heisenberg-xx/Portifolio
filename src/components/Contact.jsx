@@ -107,7 +107,7 @@ export const Contact = () => {
         </p>
       )}
       <p className="text-text1/35 text-[15px] mt-10 font-font2">
-        contact me - rajeshande2004@gmail.com
+        contact me - rajeshande004@gmail.com
       </p>
       <p className="text-text1/35 text-[10px] mt-4 font-font2">
         All Rights Reserved @2024 RAJESH ANDE
