@@ -33,18 +33,22 @@ Edit
    ```sh
    git clone https://github.com/raju0005/Portifolio.git
    cd Portifolio
+   ```
 Install dependencies:
 
-sh
-Copy
-Edit
+   ```sh
 npm install
+```
+
+
+
+
 Start the development server:
 
-sh
-Copy
-Edit
-npm run dev
+```sh
+   npm run dev
+   ```
+
 Open http://localhost:5173/ in your browser.
 
 📌 Live Demo
