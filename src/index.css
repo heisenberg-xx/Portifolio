@@ -17,6 +17,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Heart Breaking Bad";
+  src: url("./assets/fonts/Heart Breaking Bad.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "POKERFACE";
+  src: url("./assets/fonts/POKERFACE.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Hide the default scrollbar */
 body::-webkit-scrollbar {

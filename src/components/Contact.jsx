@@ -35,18 +35,24 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="reveal container px-5 py-10 mx-auto flex flex-col justify-around items-center p-5 m-5"
+      className="reveal container px-5 py-10 m-auto flex flex-col justify-around items-center p-5  "
     >
-      <h2 className="text-white sm:text-4xl text-[40px] mb-8 ">
-        Send a message
-      </h2>
+      <h1 className="text-3xl md:text-5xl text-text1 flex justify-center items-center ">
+        <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-center items-center text-white shadow-lg p-2">
+          <span>Se</span>
+        </span>
+        nd me a message
+      </h1>
       <form
         onSubmit={handleSubmit}
-        className="lg:w-full md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
+        className="lg:w-full text-font2 md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
         <input type="hidden" name="form-name" value="Contact" />
         <div className="relative mb-4">
-          <label htmlFor="name" className="leading-7 text-2xl text-gray-400 lowercase">
+          <label
+            htmlFor="name"
+            className="leading-7  text-2xl text-text1 lowercase"
+          >
             Name
           </label>
           <input
@@ -58,7 +64,10 @@ export const Contact = () => {
           />
         </div>
         <div className="relative mb-4 ">
-          <label htmlFor="email" className="leading-7 text-2xl text-gray-400 lowercase">
+          <label
+            htmlFor="email"
+            className="leading-7 text-2xl text-text1 lowercase"
+          >
             Email
           </label>
           <input
@@ -70,7 +79,10 @@ export const Contact = () => {
           />
         </div>
         <div className="relative mb-4">
-          <label htmlFor="message" className="leading-7 text-2xl text-gray-400 lowercase">
+          <label
+            htmlFor="message"
+            className="leading-7 text-2xl text-text1 lowercase"
+          >
             Message
           </label>
           <textarea
@@ -82,7 +94,7 @@ export const Contact = () => {
         </div>
         <button
           type="submit"
-          className="text-black bg-white  py-2 px-3 focus:outline-none rounded text-[15px] font-font2 font-semibold mt-3 transition-transform transform hover:scale-105"
+          className="text-white bg-custom-gradient  py-2 px-3 focus:outline-none rounded text-[15px] font-font2 font-semibold mt-3 transition-transform transform hover:scale-105"
           disabled={isLoading}
         >
           {isLoading ? "Sending..." : "Send message"}

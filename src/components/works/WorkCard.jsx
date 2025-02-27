@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const WorkCard = ({ work }) => {
   return (
@@ -25,11 +26,11 @@ export const WorkCard = ({ work }) => {
           ))}
         </ul>
         <div className="flex flex-row justify-end items-center gap-4 p-2 w-full">
-          <button className="text-black  font-font2 font-semibold bg-white rounded-xl px-2 py-1 transition-transform transfrom hover:scale-105">
-            <a href={work.link}>preview</a>
+          <button className="text-black  font-font2 font-semibold bg-white rounded-lg px-2 py-1 transition-transform transfrom hover:scale-105">
+            <Link href={work.link}>preview</Link>
           </button>
-          <button className="text-black font-semibold font-font2 bg-white rounded-xl px-2 py-1 transition-transform transfrom hover:scale-105">
-            <a href={work.git}>github</a>
+          <button className="text-white font-semibold font-font2 bg-custom-gradient rounded-lg px-2 py-1 transition-transform transfrom hover:scale-105">
+            <Link href={work.git}>github</Link>
           </button>
         </div>
       </div>

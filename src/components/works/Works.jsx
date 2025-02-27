@@ -7,12 +7,15 @@ import ben10 from "../../assets/ben10.png";
 
 export const Works = () => {
   return (
-    <div
+    <section
       id="works"
-      className="reveal flex flex-col flex-1 justify-evenly gap-5 items-center mt-6 rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 my-5"
+      className="reveal container flex flex-col flex-1 justify-evenly gap-5 items-center m-auto rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4"
     >
-      <h1 className="text-[40px] text-text1">
-        Creative Projects
+      <h1 className="text-3xl md:text-5xl text-text1 flex justify-center items-center ">
+        <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-center items-center text-white shadow-lg p-2">
+          <span>Cr</span>
+        </span>
+        eative projects
       </h1>
 
       <div className="flex flex-1  flex-col justify-around items-center rounded-xl  gap-5">
@@ -31,19 +34,8 @@ export const Works = () => {
           }}
         />
 
-        <WorkCard
-          work={{
-            logo: volt,
-            title: "Volt Music Player",
-            desc: [
-              "Developed a music web app using Shazam API and React.js for users to explore albums and tracks in real-time.",
-              "Designed a responsive, intuitive UI with Tailwind CSS, offering seamless navigation across devices.Integrated a dynamic search feature that enhances user experience by delivering music suggestions instantly.",
-              "Focused on user engagement by ensuring a smooth, fast-loading interface, supporting both desktop and mobile users.",
-            ],
-            git: "https://voltmusicplayer.netlify.app/",
-            link: "https://voltmusicplayer.netlify.app/",
-          }}
-        />
+     
+        
         <WorkCard
           work={{
             logo: copycode,
@@ -72,6 +64,6 @@ export const Works = () => {
           }}
         />
       </div>
-    </div>
+    </section>
   );
 };
