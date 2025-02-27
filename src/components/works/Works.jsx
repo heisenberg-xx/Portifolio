@@ -19,70 +19,50 @@ export const Works = () => {
       </h1>
 
       <div className="flex flex-1  flex-col justify-around items-center rounded-xl  gap-5">
- <WorkCard
-          work={{
-            logo: ben10,
-            title: "Ben-10-Wiki",
-            desc: [
-              "A fan site where users explore seasons, and aliens from the Ben 10 universe.",
-              "Built With: React.js, Redux, Express.js, MongoDB, Tailwind CSS",
-              "What’s Cool: Backend API powers fast data retrieval, and Redux keeps everything smooth.",
-              
-            ],
-            link: "https://ben-10-wiki.vercel.app/",
-            git: "https://github.com/raju0005/Ben-10",
-          }}
-        />
-<<<<<<< HEAD
-
-     
-        
-=======
- <WorkCard
-          work={{
-            logo: copycode,
-            title: "Copy-Code",
-            desc: [
-              "A no-login code-sharing tool—share snippets in seconds.",
-              "Built With: React.js, Express.js, MongoDB, Tailwind CSS access to shared code with a single username.",
-              "Why It Matters: Quick sharing across devices with just a username. No hassle, just code.",
-            ],
-            git: "https://copy-code-bro.vercel.app/",
-            link: "https://copy-code-bro.vercel.app/",
-          }}
-        />
- <WorkCard
-          work={{
-            logo: volt,
-            title: "Volt Music Player",
-            desc: [
-              "A music app that’s fast and fun to explore tracks.",
-              "Built With: React.js, Tailwind CSS, Shazam API",
-              "What’s Cool: Real-time song search with smooth navigation on any device.",
-            ],
-            git: "https://voltmusicplayer.netlify.app/",
-            link: "https://voltmusicplayer.netlify.app/",
-          }}
-        />
->>>>>>> 65f06e1dfdc62372e61cb74129a26031d5358925
         <WorkCard
           work={{
             logo: rps,
             title: "Rock-Paper-Scissors",
             desc: [
-              "A browser game that’s always ready for a quick match.",
-              "Built With: HTML, CSS, JavaScript",
-              "Why It’s Fun: Face off against a computer opponent with random moves—easy, quick, and responsive.",
-              
+              "Built a fun, interactive Rock Paper Scissors game using HTML, CSS, and JavaScript.",
+              "Implemented real-time game mechanics with visually appealing designs for an engaging user experience.",
+              "Designed the app to be responsive across devices, allowing users to enjoy the game from any platform.",
+              "Added a computer-generated opponent to ensure unpredictable and exciting gameplay.",
             ],
             git: "https://github.com/raju0005/rock-paper-scissors",
             link: "https://rajugame.netlify.app/",
           }}
         />
 
-       
-       
-       
+     
+        
+        <WorkCard
+          work={{
+            logo: copycode,
+            title: "Copy-Code",
+            desc: [
+              "Created a code-sharing platform using React.js and Tailwind CSS to enable users to share snippets across devices without login.",
+              "Simplified cross-device collaboration, offering quick access to shared code with a single username.",
+              "Designed the platform with a focus on ease of use, ensuring that developers can quickly share and collaborate on code.",
+            ],
+            git: "https://copy-code-bro.vercel.app/",
+            link: "https://copy-code-bro.vercel.app/",
+          }}
+        />
+        <WorkCard
+          work={{
+            logo: ben10,
+            title: "Ben-10-Wiki",
+            desc: [
+              "Developed a full-stack web application using React.js, Redux, Express.js, MongoDB, and Tailwind CSS to create an interactive encyclopedia for Ben 10 fans.",
+              "Designed and implemented a dynamic database to store and display information on episodes, characters, and aliens from the series.",
+              "Built with a focus on user interactivity, allowing fans to explore the world of Ben 10 in a structured and immersive format.",
+              "Showcased expertise in full-stack development, combining responsive design with efficient state management and server-side rendering.",
+            ],
+            link: "https://ben-10-wiki.vercel.app/",
+            git: "https://github.com/raju0005/Ben-10",
+          }}
+        />
       </div>
     </section>
   );

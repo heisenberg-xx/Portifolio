@@ -4,14 +4,8 @@ import python from "../../assets/python.svg";
 import express from "../../assets/express.svg";
 import tailwind from "../../assets/tailwind.svg";
 import javascript from "../../assets/javascript.svg";
-<<<<<<< HEAD
 import redux from "../../assets/redux.svg";
 import lr from "../../assets/lr.svg";
-=======
-import typescript from "../../assets/typescript.svg";
-import redux from '../../assets/redux.svg'
-import lr from '../../assets/lr.svg'
->>>>>>> 65f06e1dfdc62372e61cb74129a26031d5358925
 
 import { Skillcard } from "./skillcard";
 
@@ -30,11 +24,10 @@ export const Skills = () => {
 
       <div className="mt-10 flex flex-wrap justify-center gap-4 md:max-w-[60%] w-full">
         <Skillcard logo={python} name="Python" />
-        <Skillcard logo={javascript} name="JavaScript" />
-        <Skillcard logo={typescript} name="TypeScript" />
         <Skillcard logo={react} name="React" />
         <Skillcard logo={express} name="Express" />
         <Skillcard logo={tailwind} name="Tailwind CSS" />
+        <Skillcard logo={javascript} name="JavaScript" />
         <Skillcard logo={redux} name="Redux" />
         <Skillcard logo={lr} name="Lightroom" />
       </div>
