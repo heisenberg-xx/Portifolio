@@ -17,7 +17,7 @@ const About = () => {
         out me
       </h1>
 
-      <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[45px]">
+      <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[40px] ">
         I'm a passionate
         <span className="bg-gray-800 px-2 py-1 rounded mx-2 font-semibold">
           full-stack developer
