@@ -26,12 +26,21 @@ export const WorkCard = ({ work }) => {
           ))}
         </ul>
         <div className="flex flex-row justify-end items-center gap-4 p-2 w-full">
-          <button className="text-black  font-font2 font-semibold bg-white rounded-lg px-2 py-1 transition-transform transfrom hover:scale-105">
-            <Link href={work.link}>preview</Link>
-          </button>
-          <button className="text-white font-semibold font-font2 bg-custom-gradient rounded-lg px-2 py-1 transition-transform transfrom hover:scale-105">
-            <Link href={work.git}>github</Link>
-          </button>
+          {/* <div className="flex flex-wrap items-center justify-around gap-2 ">
+            {work.techstack?.map((tech, index) => (
+              <h1 className="text-white text-xs font-font2 md:font-semibold border-white border-2 p-1 rounded-md bg-gray-600" key={index}>
+                {tech}
+              </h1>
+            ))}
+          </div> */}
+          <div className="flex flex-row justify-end items-center gap-4 p-2 w-full">
+            <button className="text-black  font-font2 font-semibold bg-white rounded-lg px-2 py-1 transition-transform transfrom hover:scale-105">
+              <Link href={work.link}>preview</Link>
+            </button>
+            <button className="text-white font-semibold font-font2 bg-custom-gradient rounded-lg px-2 py-1 transition-transform transfrom hover:scale-105">
+              <Link href={work.git}>github</Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>

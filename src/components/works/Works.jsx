@@ -2,8 +2,8 @@ import React from "react";
 import { WorkCard } from "./WorkCard";
 import copycode from "../../assets/copycode.jpg";
 import rps from "../../assets/rps.jpg";
-import volt from "../../assets/Volt.svg";
 import ben10 from "../../assets/ben10.png";
+import moody from "../../assets/moody.png";
 
 export const Works = () => {
   return (
@@ -31,11 +31,10 @@ export const Works = () => {
             ],
             git: "https://github.com/raju0005/rock-paper-scissors",
             link: "https://rajugame.netlify.app/",
+            techstack: ["HTML", "CSS", "JS"],
           }}
         />
 
-     
-        
         <WorkCard
           work={{
             logo: copycode,
@@ -47,6 +46,7 @@ export const Works = () => {
             ],
             git: "https://copy-code-bro.vercel.app/",
             link: "https://copy-code-bro.vercel.app/",
+            techstack: ["React", "Express", "Tailwindcss", "Context"],
           }}
         />
         <WorkCard
@@ -61,6 +61,24 @@ export const Works = () => {
             ],
             link: "https://ben-10-wiki.vercel.app/",
             git: "https://github.com/raju0005/Ben-10",
+            techstack: ["React", "Express", "Tailwindcss", "Redux"],
+          }}
+        />
+        <WorkCard
+          work={{
+            logo: moody,
+            title: "Moody",
+            desc: [
+              "Developed a digital diary using Next.js, Clerk, MongoDB, and ShadCN to help users track their daily moods and thoughts.",
+              "Integrated Clerk authentication to ensure secure and seamless user access.",
+              "Integrated ArcJect for rate limiting and bot protection.",
+              "Designed a modern and intuitive UI with ShadCN for a smooth journaling experience.",
+              "Implemented MongoDB for persistent storage, allowing users to view and analyze their mood trends over time.",
+              "Showcased expertise in full-stack development, authentication, and UI/UX design to enhance user engagement.",
+            ],
+            link: "https://moody-digital-diary.vercel.app/",
+            git: "https://github.com/raju0005/Moody",
+            techstack: ["Next", "Shadcn", "Clerk", "ArcJet"],
           }}
         />
       </div>
