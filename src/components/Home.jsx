@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import download from "../assets/download.svg";
 import logo from "../assets/2.jpg";
 import "animate.css";
-import { Link } from "react-router-dom";
+
 
 export const Home = () => {
   return (
@@ -45,7 +45,7 @@ export const Home = () => {
           </p>
 
          
-          <Link
+          <a
             href="https://drive.google.com/file/d/1VZFtGlvd4NY7u-11CZPDZYaE-ih7Up5v/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
@@ -54,7 +54,7 @@ export const Home = () => {
               <span className="font-bold font-font2">My Resume</span>
               <img className="w-[18px]" src={download} alt="Download icon" />
             </button>
-          </Link>
+          </a>
         </div>
       </article>
     </section>
