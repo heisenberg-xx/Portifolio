@@ -13,10 +13,9 @@ const MainHome = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        // Initialize ScrollReveal animations
         ScrollReveal().reveal('.reveal', {
             origin: 'bottom',
-            distance: '20px',
+            distance: '30px',
             duration: 1000,
             easing: 'ease-in-out',
             reset: true,
