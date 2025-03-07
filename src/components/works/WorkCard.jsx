@@ -8,7 +8,7 @@ export const WorkCard = ({ work }) => {
       className="reveal flex flex-col justify-around items-center bg-primary w-auto min-h-[195px] md:max-w-96   px-5 py-3  rounded-xl  gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px]"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
-      onClick={() => setOpen(!prev)}
+      onClick={() => setOpen((prev) => !prev)}
     >
       <div className="flex justify-around items-center gap-5">
         <div className="w-36">
