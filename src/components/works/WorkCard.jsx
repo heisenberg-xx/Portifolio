@@ -5,12 +5,12 @@ export const WorkCard = ({ work }) => {
 
   return (
     <div
-      className="reveal flex flex-col justify-around items-center bg-primary w-auto min-h-[195px] md:max-w-96   px-5 py-3  rounded-xl  gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px]"
+      className="reveal flex flex-col justify-around items-center bg-primary w-auto min-h-[210px] md:max-w-96   px-5 py-3  rounded-xl  gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px]"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
       onClick={() => setOpen((prev) => !prev)}
     >
-      <div className="flex justify-around items-center gap-5">
+      <div className="flex justify-center items-center gap-5">
         <div className="w-36">
           <img
             className="object-fill rounded-lg"
@@ -19,7 +19,7 @@ export const WorkCard = ({ work }) => {
           />
         </div>
         <div className="flex flex-col justify-around items-center">
-          <h1 className="text-[30px] mt-3 mb-1 font-customPD text-white lowercase text-center">
+          <h1 className="text-[24px]  mt-3 mb-1 font-customPD text-white lowercase text-center">
             {work.title}
           </h1>
           <div className="flex justify-around items-center gap-2">
@@ -49,6 +49,13 @@ export const WorkCard = ({ work }) => {
             </li>
           ))}
         </ul>
+      </div>
+      <div className="flex justify-start items-start gap-4 w-full mx-auto h-auto">
+        {work.techstack?.map((tool) => (
+          <div className="text-black font-font2 font-bold text-xs opacity-50 bg-gray-400 rounded-lg px-2 py-1 ">
+            {tool}
+          </div>
+        ))}
       </div>
     </div>
   );
