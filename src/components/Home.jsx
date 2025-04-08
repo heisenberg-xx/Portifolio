@@ -9,11 +9,11 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="container w-screen h-screen reveal pt-3 flex flex-col md:flex-row justify-center gap-20 items-center rounded-xl 5 m-auto"
+      className="container w-screen h-screen reveal pt-3 flex flex-col md:flex-row justify-center gap-20 items-center rounded-xl  mx-auto"
     >
-      <figure className="flex justify-center items-center m-5 animate__animated animate__headShake">
+      <figure className="flex justify-center items-center md:m-5 mt-40 animate__animated animate__headShake">
         <img
-          className="md:w-[300px] w-[200px] rounded-[75px] md:rounded-[100px] border-[4px] border-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+          className="md:w-[300px] w-[200px] rounded-[75px] md:rounded-[100px] border-[2px] border-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
           src={logo}
           alt="Rajesh's profile"
         />
