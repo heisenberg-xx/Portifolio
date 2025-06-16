@@ -13,7 +13,7 @@ export const Home = () => {
     >
       <figure className="flex justify-center items-center md:m-5 mt-40 animate__animated animate__headShake">
         <img
-          className="md:w-[300px] w-[200px] rounded-[75px] md:rounded-[100px] border-[2px] border-green-500 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+          className="md:w-[300px] w-[200px] rounded-[75px] md:rounded-[100px] border-[2px] border-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
           src={logo}
           alt="Rajesh's profile"
         />
