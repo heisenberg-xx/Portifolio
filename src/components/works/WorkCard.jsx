@@ -51,8 +51,8 @@ export const WorkCard = ({ work }) => {
         </ul>
       </div>
       <div className="flex justify-start items-start gap-4 w-full mx-auto h-auto">
-        {work.techstack?.map((tool) => (
-          <div className="text-black font-font2 font-bold text-xs opacity-50 bg-gray-400 rounded-lg px-2 py-1 ">
+        {work.techstack?.map((tool,index) => (
+          <div className="text-black font-font2 font-bold text-xs opacity-50 bg-gray-400 rounded-lg px-2 py-1 " key={index}>
             {tool}
           </div>
         ))}

@@ -1,13 +1,12 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-
-import './index.css';
+import React from "react";
+import MainHome from "./MainHome.jsx";
+import "./index.css";
 
 function App() {
   return (
     <main>
-    <Outlet />
-  </main>
+      <MainHome />
+    </main>
   );
 }
 

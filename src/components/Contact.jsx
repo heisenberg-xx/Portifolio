@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { useSendContactFormMutation } from "../redux/contactSlice";
 
 export const Contact = () => {
@@ -7,7 +6,6 @@ export const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("");
-  const navigate = useNavigate();
 
   const [sendContactForm, { isLoading, isSuccess, isError, error }] =
     useSendContactFormMutation();
@@ -17,12 +15,9 @@ export const Contact = () => {
     try {
       const contactData = { username: name, email, message };
       const response = await sendContactForm(contactData).unwrap();
-      if (response.admin) {
-        navigate("/admin/messages");
-      } else {
-        setStatus("Message sent successfully!");
-        console.log("Message sent:", response);
-      }
+
+      setStatus("Message sent successfully!");
+      console.log("Message sent:", response);
     } catch (error) {
       console.error("Failed to send message:", error);
       console.error("Failed to send message:", error);
