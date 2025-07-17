@@ -3,7 +3,8 @@ import react from "../../assets/react.svg";
 import python from "../../assets/python.svg";
 import express from "../../assets/express.svg";
 import tailwind from "../../assets/tailwind.svg";
-import javascript from "../../assets/javascript.svg";
+import javascript from "../../assets/next-js.svg";
+import next from "../../assets/javascript.svg";
 import redux from "../../assets/redux.svg";
 import lr from "../../assets/lr.svg";
 
@@ -23,12 +24,13 @@ export const Skills = () => {
       </h1>
 
       <div className="mt-10 flex flex-wrap justify-center gap-4 md:max-w-[60%] w-full">
-        <Skillcard logo={python} name="Python" />
+        <Skillcard logo={javascript} name="JavaScript" />
         <Skillcard logo={react} name="React" />
+        <Skillcard logo={next} name="React" />
         <Skillcard logo={express} name="Express" />
         <Skillcard logo={tailwind} name="Tailwind CSS" />
-        <Skillcard logo={javascript} name="JavaScript" />
         <Skillcard logo={redux} name="Redux" />
+        <Skillcard logo={python} name="Python" />
         <Skillcard logo={lr} name="Lightroom" />
       </div>
     </section>
