@@ -58,7 +58,7 @@ export const Navbar = () => {
 
         <li className="relative group text-white flex justify-center cursor-pointer items-center p-2 hover:bg-black/50 rounded-lg md:text-2xl text-xl animate__animated animate__headShake">
           <a
-            href="https://github.com/raju0005"
+            href="https://github.com/heisenbergXww"
             target="_blank"
             rel="noopener noreferrer"
           >
