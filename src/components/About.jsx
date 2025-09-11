@@ -17,13 +17,13 @@ const About = () => {
         out me
       </h1>
 
-      <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[40px] ">
-        I'm a passionate
+      <p className="p-2 md:max-w-[70%] text-center text-white font-font2 text-lg leading-[40px]">
+        I’m a
         <span className="bg-gray-800 px-2 py-1 rounded mx-2 font-semibold">
           full-stack developer
         </span>
-        with almost 1 year of hands-on experience and a strong foundation in
-        building web applications using technologies like
+        cooking up web apps with precision. With almost 1 year of hands-on
+        experience, I’ve been brewing projects using:
         <span className="bg-gray-800 px-2 rounded mx-2 font-semibold inline-flex items-center gap-1">
           <FaReact className="text-blue-400 text-2xl animate-loadtwo" />
           React
@@ -43,9 +43,8 @@ const About = () => {
           <BiLogoMongodb className="text-green-400 text-2xl animate-loadtwo" />
           MongoDB
         </span>
-        . I have hands-on experience developing interactive, high-performance
-        applications where I enhanced user experience. I enjoy creating
-        efficient, user-friendly solutions and am skilled in both
+        . I specialize in crafting high-performance, interactive applications
+        that deliver a smooth user experience, mastering both
         <span className="bg-gray-800 px-2 py-1 rounded mx-2 font-semibold">
           front-end
         </span>
@@ -53,14 +52,13 @@ const About = () => {
         <span className="bg-gray-800 px-2 py-1 rounded mx-2 font-semibold">
           back-end
         </span>
-        development.
-
-        When I'm not coding, you can often find me enjoying
+        formulae. When I’m not coding in my digital lab, you’ll find me breaking
+        down
         <span className="bg-gray-800 px-2 rounded mx-2 font-semibold inline-flex items-center gap-1">
           <BiSolidMovie className="text-white text-2xl animate-loadtwo" />
           movies
         </span>
-        or in the
+        or pumping iron in the
         <span className="bg-gray-800 px-2 rounded mx-2 font-semibold inline-flex items-center gap-1">
           <CgGym className="text-white text-2xl animate-loadtwo" />
           gym

@@ -22,7 +22,7 @@ export const Home = () => {
       <article className="flex justify-center items-center m-5">
         <div className="flex flex-1 font-font1 flex-grow gap-[10px] h-full justify-center items-center md:items-start flex-col animate__animated animate__headShake w-[400px]">
           <h1 className="font-bold font-font2 text-[20px] text-text1 sm:text-[20px]">
-            Hello, it's me
+            Say My Name
           </h1>
 
           <div className="text-5xl md:text-8xl flex text-text1 font-customPD justify-center items-center">

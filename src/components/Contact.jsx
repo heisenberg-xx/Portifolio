@@ -36,7 +36,7 @@ export const Contact = () => {
         <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-center items-center text-white shadow-lg p-2">
           <span>Se</span>
         </span>
-        nd me a message
+        nd a Signal
       </h1>
       <form
         onSubmit={handleSubmit}

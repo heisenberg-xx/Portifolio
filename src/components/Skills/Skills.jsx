@@ -22,7 +22,7 @@ export const Skills = () => {
         <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-center items-center text-white shadow-lg p-2">
           <span>Sk</span>
         </span>
-        ills
+        illZ
       </h1>
 
       <div className="mt-10 flex flex-wrap justify-center gap-4 md:max-w-[60%] w-full">

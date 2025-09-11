@@ -33,7 +33,7 @@ export const Navbar = () => {
               duration={1000}
               offset={-50}
               spy={true}
-              activeClass="text-[#16a34a] bg-white/90 rounded-sm  transform p-1 transition-all duration-300 ease-in-out"
+              // activeClass="bg-black/50 rounded-sm  transform p-1 transition-all duration-300 ease-in-out"
             >
               {item.icon}
             </Link>
