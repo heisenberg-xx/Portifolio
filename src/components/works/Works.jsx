@@ -5,6 +5,7 @@ import rps from "../../assets/rps.png";
 import ben10 from "../../assets/ben10.png";
 import moody from "../../assets/moody1.png";
 import bb from "../../assets/bb.png";
+import ComingSoon from "./ComingSoon";
 
 export const Works = () => {
   return (
@@ -104,6 +105,7 @@ export const Works = () => {
             techstack: ["React", "Material UI", "Express", "MongoDB"],
           }}
         />
+        <ComingSoon/>
       </div>
     </section>
   );
