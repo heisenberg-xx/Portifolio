@@ -11,15 +11,12 @@ const ComingSoon = () => {
   }, []);
 
   if (!chainReady) {
-    // ⏳ Show a placeholder while chain is loading
     return (
       <div className="flex justify-center items-center min-h-[210px] bg-primary rounded-xl border-2 border-white">
-        <h1 className="text-5xl text-white">Loading ...</h1>
       </div>
     );
   }
 
-  // ✅ Render only after chain is fully loaded
   return (
     <div className="relative flex flex-col justify-around items-center bg-primary w-auto min-h-[210px] md:max-w-96 px-5 py-3 rounded-xl gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px]">
       <h1 className="text-5xl text-white z-10">Cooking ...</h1>
