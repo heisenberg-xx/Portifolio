@@ -5,7 +5,7 @@ export const WorkCard = ({ work }) => {
 
   return (
     <div
-      className="reveal flex flex-col justify-around items-center bg-primary w-auto min-h-[210px] md:max-w-96   px-5 py-3  rounded-xl  gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px]"
+      className="reveal flex flex-col justify-around items-center bg-primary w-auto min-h-[210px] md:max-w-96   px-5 py-3  rounded-lg  gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px]"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
       onClick={() => setOpen((prev) => !prev)}
@@ -23,12 +23,14 @@ export const WorkCard = ({ work }) => {
             {work.title}
           </h1>
           <div className="flex justify-around items-center gap-2">
-            <button className="text-black font-font2 font-semibold bg-white rounded-lg px-2 py-1 transition-transform transform hover:scale-105">
+           
+            <button className="text-white font-semibold  text-sm font-font2 bg-custom-gradient rounded-md px-2 py-1 transition-transform transform hover:scale-105">
               <a href={work.link} target="_blank" rel="noopener noreferrer">
-                preview
+                step inside
               </a>
             </button>
-            <button className="text-white font-semibold font-font2 bg-custom-gradient rounded-lg px-2 py-1 transition-transform transform hover:scale-105">
+             <button className="text-black  font-font2 text-sm font-semibold bg-white rounded-md px-2 py-1 transition-transform transform hover:scale-105">
+              
               <a href={work.git} target="_blank" rel="noopener noreferrer">
                 github
               </a>
@@ -52,7 +54,7 @@ export const WorkCard = ({ work }) => {
       </div>
       <div className="flex justify-start items-start gap-4 w-full mx-auto h-auto">
         {work.techstack?.map((tool,index) => (
-          <div className="text-black font-font2 font-bold text-xs opacity-50 bg-gray-400 rounded-lg px-2 py-1 " key={index}>
+          <div className="text-black font-font2 font-bold text-xs opacity-50 bg-gray-400 rounded-sm px-2 py-1 " key={index}>
             {tool}
           </div>
         ))}

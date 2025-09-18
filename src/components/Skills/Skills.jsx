@@ -19,7 +19,7 @@ export const Skills = () => {
       className="container w-screen h-screen reveal flex flex-col justify-center items-center m-auto rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-3"
     >
       <h1 className="text-3xl md:text-5xl text-text1 flex justify-center items-center">
-        <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-center items-center text-white shadow-lg p-2">
+        <span className="bg-custom-gradient border-2 border-white rounded-md flex justify-center items-center text-white shadow-lg p-2">
           <span>Sk</span>
         </span>
         illZ

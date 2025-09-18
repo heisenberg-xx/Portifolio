@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import download from "../assets/download.svg";
-import logo from "../assets/2.jpg";
+import logo from "../assets/2.png";
 import "animate.css";
 
 
@@ -13,7 +13,7 @@ export const Home = () => {
     >
       <figure className="flex justify-center items-center md:m-5 mt-40 animate__animated animate__headShake">
         <img
-          className="md:w-[300px] w-[200px] rounded-[75px] md:rounded-[100px] border-[2px] border-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+          className="md:w-[300px] w-[200px] rounded-lg border-[1px] border-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
           src={logo}
           alt="Rajesh's profile"
         />
@@ -26,7 +26,7 @@ export const Home = () => {
           </h1>
 
           <div className="text-5xl md:text-8xl flex text-text1 font-customPD justify-center items-center">
-            <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-between items-center text-white shadow-lg p-2 ">
+            <span className="bg-custom-gradient border-2 border-white rounded-md flex justify-between items-center text-white shadow-lg p-2 ">
               <span className="">Ra</span>
             </span>
             jesh<span>.</span>

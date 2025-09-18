@@ -33,7 +33,7 @@ export const Contact = () => {
       className="reveal container px-5 py-10 m-auto flex flex-col justify-around items-center p-5  "
     >
       <h1 className="text-3xl md:text-5xl text-text1 flex justify-center items-center ">
-        <span className="bg-custom-gradient border-2 border-white rounded-lg flex justify-center items-center text-white shadow-lg p-2">
+        <span className="bg-custom-gradient border-2 border-white rounded-md flex justify-center items-center text-white shadow-lg p-2">
           <span>Se</span>
         </span>
         nd a Signal
