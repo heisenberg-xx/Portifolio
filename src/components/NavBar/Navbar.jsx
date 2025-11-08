@@ -20,7 +20,7 @@ export const Navbar = () => {
     { to: "contact", icon: <RiMessage2Fill />, label: "Contact" },
   ];
   return (
-    <div className="md:min-w-[40%] min-w-[50%] z-30 fixed top-3 border-2 bg-custom-gradient border-white rounded-md shadow-[rgba(205,210,230,0.21)_0px_3px_8px]">
+    <div className="md:min-w-[40%] min-w-[50%] z-30 fixed top-3 border-2 bg-custom-gradient border-white/60 rounded-md shadow-[rgba(205,210,230,0.21)_0px_3px_8px]">
       <ul className="flex p-2 w-full justify-around items-center md:gap-2 gap-4">
         {navElements.map((item, index) => (
           <li

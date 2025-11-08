@@ -1,10 +1,11 @@
 import React from "react";
 import { WorkCard } from "./WorkCard";
-import copycode from "../../assets/copy-code.svg";
-import rps from "../../assets/rps.png";
-import ben10 from "../../assets/ben10.png";
-import moody from "../../assets/moody1.png";
-import bb from "../../assets/bb.png";
+import copycode from "../../assets/worklogos/copy-code.svg";
+import rps from "../../assets/worklogos/rps.png";
+import ben10 from "../../assets/worklogos/ben10.png";
+import moody from "../../assets/worklogos/moody1.png";
+import bb from "../../assets//worklogos/bb.png";
+import session from "../../assets//worklogos/session.png";
 import ComingSoon from "./ComingSoon";
 
 export const Works = () => {
@@ -21,6 +22,38 @@ export const Works = () => {
       </h1>
 
       <div className="grid md:grid-cols-2 items-start rounded-xl gap-5">
+        <WorkCard
+          work={{
+            logo: session,
+            title: "session",
+            desc: [
+              "A Google Meet–style MVP—bringing real-time video calls to life from the ground up.",
+              "Built from scratch—a real-time communication platform powered by Mediasoup’s SFU, routing video streams with surgical precision.",
+              "Socket.IO and Express form the heartbeat handling signaling, rooms, and synchronization like a finely tuned network.",
+              "React crafts the interface sleek, dynamic, and responsive like glass under light.",
+              "Full-stack engineering in motion—real-time video, human connection, and technical precision fused together/"
+            ],
+            link: "https://session-dev.vercel.app/",
+            git: "https://github.com/heisenberg-xx/mediasoup_client",
+            techstack: ["React", "Mediasoup", "Express", "SocketIO"],
+          }}
+        />
+        <WorkCard
+          work={{
+            logo: bb,
+            title: "Blood Bridge",
+            desc: [
+              "A life-saving operation—connecting donors and recipients with precision and zero contamination.",
+              "OTP verification keeps the system clean and reliable—like purity tests in the lab.",
+              "MongoDB maps nearby donors, ensuring fast response in critical moments.",
+              "Material UI creates an interface as sharp and clean as lab glassware.",
+              "Full-stack expertise on display: authentication, user experience, and high-stakes delivery.",
+            ],
+            link: "https://blood-bridge-app.vercel.app/",
+            git: "https://github.com/heisenberg-xx/blood_bridge",
+            techstack: ["React", "Material UI", "Express", "MongoDB"],
+          }}
+        />
         <WorkCard
           work={{
             logo: rps,
@@ -89,23 +122,7 @@ export const Works = () => {
           }}
         />
 
-        <WorkCard
-          work={{
-            logo: bb,
-            title: "Blood Bridge",
-            desc: [
-              "A life-saving operation—connecting donors and recipients with precision and zero contamination.",
-              "OTP verification keeps the system clean and reliable—like purity tests in the lab.",
-              "MongoDB maps nearby donors, ensuring fast response in critical moments.",
-              "Material UI creates an interface as sharp and clean as lab glassware.",
-              "Full-stack expertise on display: authentication, user experience, and high-stakes delivery.",
-            ],
-            link: "https://blood-bridge-app.vercel.app/",
-            git: "https://github.com/heisenberg-xx/blood_bridge",
-            techstack: ["React", "Material UI", "Express", "MongoDB"],
-          }}
-        />
-        <ComingSoon/>
+        <ComingSoon />
       </div>
     </section>
   );

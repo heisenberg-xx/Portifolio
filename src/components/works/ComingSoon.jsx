@@ -17,7 +17,7 @@ const ComingSoon = () => {
   }
 
   return (
-    <div className="relative flex flex-col justify-around items-center bg-primary w-auto min-h-[215px] md:max-w-96 px-5 py-3 rounded-lg gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px] overflow-hidden">
+    <div className="relative flex flex-col justify-around items-center bg-primary w-auto min-h-[215px] md:max-w-96 px-5 py-3 rounded-lg gap-7 shadow-[rgba(205,210,230,0.21)_0px_3px_8px] border-2 border-white/60 transition-all duration-300 ease-in-out hover:shadow-[rgba(205,210,230,0.5)_0px_5px_15px] overflow-hidden">
       <h1 className="text-5xl text-white z-10">Cooking ...</h1>
 
       <div className="absolute flex items-center w-[115%] z-20">

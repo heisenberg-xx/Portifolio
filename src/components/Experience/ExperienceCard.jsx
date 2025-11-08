@@ -5,7 +5,7 @@ const ExperienceCard = ({ experience }) => {
   const [showFull, setShowFull] = useState(false);
 
   return (
-    <div className="md:w-[80%] reveal border bg-black/60 rounded flex flex-col gap-5 px-5 py-2 relative shadow-[rgba(205,210,230,0.21)_0px_3px_8px]">
+    <div className="md:w-[80%] reveal border border-white/60 bg-black/60 rounded flex flex-col gap-5 px-5 py-2 relative shadow-[rgba(205,210,230,0.21)_0px_3px_8px]">
       <div className="flex gap-5">
         <div className="md:w-48 w-20 flex items-center">
           <img className="object-contain" src={experience.logo} alt="" />

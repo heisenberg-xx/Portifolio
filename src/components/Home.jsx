@@ -34,7 +34,7 @@ export const Home = () => {
 
           <p className="text-white font-customPD lowercase text-[40px]">
             <Typewriter
-              words={["Full Stack Dev", "MERN Stack Dev", "Front End Dev"]}
+              words={["Full Stack Dev", "Gym Rat", "Front End Dev","Debugger", "Movie Buff"]}
               loop={true}
               cursor
               cursorStyle="|"

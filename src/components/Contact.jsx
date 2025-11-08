@@ -40,10 +40,10 @@ export const Contact = () => {
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="lg:w-full text-font2 md:w-2/3 w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
+        className="lg:w-full text-font2 md:w-[70%] w-full flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0 items-center justify-around"
       >
         <input type="hidden" name="form-name" value="Contact" />
-        <div className="relative mb-4">
+        <div className="flex flex-col relative mb-4">
           <label
             htmlFor="name"
             className="leading-7  text-2xl text-text1 lowercase"
@@ -54,11 +54,11 @@ export const Contact = () => {
             type="text"
             id="name"
             name="name"
-            className="w-full font-font2 bg-gray-800 rounded border-2 border-white focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="md:w-[400px] font-font2 bg-gray-800 rounded border-2 border-white/60 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className="relative mb-4 ">
+        <div className="flex flex-col relative mb-4 ">
           <label
             htmlFor="email"
             className="leading-7 text-2xl text-text1 lowercase"
@@ -69,11 +69,11 @@ export const Contact = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full font-font2 bg-gray-800 rounded  border-2 border-white focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="md:w-[400px] font-font2 bg-gray-800 rounded  border-2 border-white/60 focus:border-white/40 focus:ring-2 focus:ring-white/50 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div className="relative mb-4">
+        <div className="flex flex-col relative mb-4">
           <label
             htmlFor="message"
             className="leading-7 text-2xl text-text1 lowercase"
@@ -83,7 +83,7 @@ export const Contact = () => {
           <textarea
             id="message"
             name="message"
-            className="w-full font-font2 bg-white/30 rounded  border-2 border-white focus:border-white/40 focus:ring-2 focus:ring-white/50 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="md:w-[400px] font-font2 bg-gray-800 rounded  border-2 border-white/60 focus:border-white/40 focus:ring-2 focus:ring-white/50 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             onChange={(e) => setMessage(e.target.value)}
           />
         </div>
