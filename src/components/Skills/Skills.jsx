@@ -1,14 +1,14 @@
 import React from "react";
-import react from "../../assets/react.svg";
-import python from "../../assets/python.svg";
-import express from "../../assets/express.svg";
-import tailwind from "../../assets/tailwind.svg";
-import next from "../../assets/next-js.svg";
-import javascript from "../../assets/javascript.svg";
-import ts from "../../assets/typescript.svg";
-import mongo from "../../assets/mongodb.svg";
-import redux from "../../assets/redux.svg";
-import lr from "../../assets/lr.svg";
+import react from "../../assets/skillicons/react.svg";
+import reactQuery from "../../assets/skillicons/reactQuery.svg";
+import express from "../../assets/skillicons/express.svg";
+import tailwind from "../../assets/skillicons/tailwind.svg";
+import next from "../../assets/skillicons/next.svg";
+import javascript from "../../assets/skillicons/javascript.svg";
+import ts from "../../assets/skillicons/typescript.svg";
+import mongo from "../../assets/skillicons/mongo.svg";
+import redux from "../../assets/skillicons/redux.svg";
+import zustand from "../../assets/skillicons/zustand.svg";
 
 import { Skillcard } from "./skillcard";
 
@@ -34,8 +34,8 @@ export const Skills = () => {
         <Skillcard logo={mongo} name="MongoDB" />
         <Skillcard logo={tailwind} name="Tailwind CSS" />
         <Skillcard logo={redux} name="Redux" />
-        <Skillcard logo={python} name="Python" />
-        <Skillcard logo={lr} name="Lightroom" />
+        <Skillcard logo={reactQuery} name="React Query" />
+        <Skillcard logo={zustand} name="Zustand" />
       </div>
     </section>
   );
